@@ -1,0 +1,74 @@
+
+
+@font-face 
+{
+    font-family: "NMSGeoSans";
+    src: url(../fonts/NMSGeoSans_Kerned.eot),
+    url(../fonts/NMSGeoSans_Kerned.woff) format('woff'),
+    url(../fonts/NMSGeoSans_Kerned.tff) format('truetype');
+    font-style: normal;
+    font-weight: 200;
+}
+
+:root
+{
+    --body: #FFFFFF;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+a{
+    text-decoration:  none;
+}
+
+.btn-instruction
+{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.10);
+    color: var(--body);
+    border-radius: 4px;
+    padding: 6px 20px;
+    font-family: 'Inter', sans-serif;
+}
+.btn-instruction span
+{
+    font-size: 18px;
+    font-weight: 500;
+}
+.btn-instruction img
+{
+    width: 20px;
+    margin-right: 5px;
+}
+.page-home
+{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('../images/landing.jpg');
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+.page-home-wrapper
+{
+    padding-top: 200px;
+}
+.page-home h1
+{
+    font-family: 'NMSGeoSans';
+    font-size: 100px;
+    color: var(--body);
+    text-transform: uppercase;
+}
+
+
